@@ -5,9 +5,9 @@ def position_taken?(b, i)
     false
   elsif b[i].strip == ""
     false
- elsif b[i] == "X"
+ elsif b[i] == "X" || b[i] == "O"
     true
- elsif b[i] == "O"
-   true
+ #elsif b[i] == "O"
+#   true
   end
 end
