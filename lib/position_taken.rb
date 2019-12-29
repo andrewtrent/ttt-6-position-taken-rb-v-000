@@ -9,7 +9,7 @@ def position_taken?(b, i)
     true
  #elsif b[i] == "O"
 #   true
-else 
+else
    false
   end
 end
