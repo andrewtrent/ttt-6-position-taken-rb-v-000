@@ -1,10 +1,13 @@
 # code your #position_taken? method here!
 
 def position_taken?(b, i)
-  return b[i]
   if b[i] == nil
     false
-  elsif b[i]
+  elsif b[i] == " "
     false
+ elsif b[i] == "X"
+    true
+ elsif b[i] == "O"
+   true
   end
 end
