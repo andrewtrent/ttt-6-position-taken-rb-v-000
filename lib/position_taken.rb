@@ -3,7 +3,7 @@
 def position_taken?(b, i)
   if b[i] == nil
     false
-  elsif b[i] == " "
+  elsif b[i].strip == ""
     false
  elsif b[i] == "X"
     true
