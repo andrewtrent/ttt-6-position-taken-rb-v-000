@@ -2,8 +2,8 @@
 
 def position_taken?(b, i)
   if b[i] = " "
-    false 
-  else 
-    true 
+    false
+  else
+    true
   end
 end
